@@ -1,0 +1,50 @@
+# chromedriver for locally-executed smoke tests (i.e. not docker)
+bin/
+
+# tmp
+tmp/
+
+# Secrets
+company_secrets/
+.*_env
+
+# pytest and nosetest result files
+py/test/*.xml
+pytest.xml
+result.xml
+
+# generated test images
+core/data/images/
+
+# logs
+geckodriver.log
+
+# MAC POO
+._*
+.DS_Store
+
+# Sublime
+*.sublime-workspace
+
+# Dev virtualenv
+venv
+dev/
+venv/
+.*_env
+
+# Python
+*.pyc
+*.pickle
+*.npy
+.cache/
+py/env/
+py/enva/
+py/env27/
+**/*.egg-info/
+
+# Bash alias
+.bash_alias
+
+#IDE
+.idea/
+.vscode/
