@@ -1,6 +1,6 @@
 ### This is an example of tests for MOOC course about data analyse.
 
-It covers task 1 topic 2 lesson 6 about for loop usage.
+It covers task 1 in topic 2 lesson 6 about for loop usage.
 
 Because there is no info about how user input code and user output parsed I made few assumptions and created tests based on them.
 
